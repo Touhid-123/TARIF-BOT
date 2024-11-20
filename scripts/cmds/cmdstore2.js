@@ -13,7 +13,7 @@ module.exports.config = {
     en: "Commands Store of Dipto",
   },
   countDown: 3,
-  category: "goatbot",
+  category: "𝗚𝗢𝗔𝗧𝗕𝗢𝗧",
   guide: {
     en: "{pn} [command name | single character | page number]",
   },
