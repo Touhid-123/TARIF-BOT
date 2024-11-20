@@ -38,7 +38,7 @@ module.exports = {
         }
 
         try {
-            const w = await api.sendMessage("Please wait...", event.threadID);
+            const w = await api.sendMessage(" 𝓦ait...𝗕૦𝘚𝘚••🚬🗿", event.threadID);
             const response = await axios.get(
                 `${await baseApiUrl()}/pinterest?search=${encodeURIComponent(q)}&limit=${encodeURIComponent(length)}`,
             );
@@ -73,8 +73,8 @@ module.exports = {
             await api.sendMessage(
                 {
                     body: `
-✅ | Here's Your Query Based images
-🐤 | Total Images Count: ${totalImagesCount}`,
+🪄 | Here's Your Query Based images
+🗿 | Total Images Count: ${totalImagesCount}`,
                     attachment: diptoo,
                 },
                 event.threadID,
