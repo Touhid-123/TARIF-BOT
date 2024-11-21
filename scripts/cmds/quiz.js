@@ -15,7 +15,7 @@ module.exports = {
     author: "Dipto",
     countDown: 0,
     role: 0,
-    category: "game",
+    category: "𝗚𝗔𝗠𝗘",
     guide: "{p}quiz2 \n{pn}quiz2 bn \n{p}quiz2 en",
   },
 
