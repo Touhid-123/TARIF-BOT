@@ -11,7 +11,7 @@ module.exports = {
     role: 1,
     shortDescription: "accept pending message",
     longDescription: "accept pending message",
-    category: "Utility",
+    category: "𝗖𝗢𝗡𝗙𝗜𝗚",
   },
 
   onReply: async function ({ message, api, event, usersData, Reply }) {
