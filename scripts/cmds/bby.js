@@ -7,7 +7,7 @@ const baseApiUrl = async () => {
 module.exports.config = {
   name: "bby",  aliases: ["baby","bot","trisha","tarif"],
   version: "6.9.0",
-  author: "Max-Rambo",
+  author: "Max-Rambo|👨🏿‍🌾🪄",
   countDown: 0,
   role: 0,
   description: "better then all sim simi",
@@ -142,9 +142,9 @@ module.exports.onReply = async ({ api, event, Reply }) => {
 module.exports.onChat = async ({ api, event,message }) => {
   try{
     const body = event.body ? event.body.toLowerCase() : ""
-    if(body.startsWith("baby") || body.startsWith("bby") || body.startsWith("janu") || body.startsWith("tarif") || body.startsWith("trisha")){
+    if(body.startsWith("baby") || body.startsWith("bby") || body.startsWith("janu") || body.startsWith("tarif") || body.startsWith("trisha") || body.startsWith("bot") || body.startsWith("বট") || body.startsWith("বেবি") ){
       const arr = body.replace(/^\S+\s*/, "")
-      if(!arr) return message.reply(" বলো bby hi 🧑🏾‍🔧🫵  ")
+      if(!arr) return message.reply(" please tryp bby hi 👨🏿‍🌾🪄 ")
     const a = (await axios.get(`${await baseApiUrl()}/baby?text=${encodeURIComponent(arr)}&senderID=${event.senderID}&font=1`)).data.reply;
     await api.sendMessage(a, event.threadID, (error, info) => {
       global.GoatBot.onReply.set(info.messageID, {
