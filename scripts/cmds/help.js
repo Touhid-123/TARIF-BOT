@@ -7,7 +7,7 @@ const doNotDelete = ""; // changing this wont change the goatbot V2 of list cmd 
 
 module.exports = {
   config: {
-    name: "help2",
+    name: "help",
     version: "1.17",
     author: "NTKhang", // original author Kshitiz 
     countDown: 5,
