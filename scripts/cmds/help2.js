@@ -7,7 +7,7 @@ const doNotDelete = "[ TARIF ]"; // changing this wont change the goatbot V2 of 
 
 module.exports = {
   config: {
-    name: "help",
+    name: "help2",
     version: "1.17",
     author: "ArYan",
     countDown: 5,
