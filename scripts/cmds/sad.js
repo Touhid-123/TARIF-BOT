@@ -33,9 +33,9 @@ module.exports = {
 "https://i.imgur.com/ivlF5PV.mp4",
 "https://i.imgur.com/UmsBvYo.mp4",
 "https://i.imgur.com/3VdKgSY.mp4",
-"",
-"",
-"",
+"https://i.imgur.com/g6pzM9B.mp4",
+"https://i.imgur.com/F5PMMd4.mp4",
+"https://i.imgur.com/9AwSkm1.mp4",
 ]
 
 let msg = TARIF[Math.floor(Math.random()*TARIF.length)]
