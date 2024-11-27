@@ -8,7 +8,7 @@ module.exports = {
         version: "1.2",
         author: "MR Rimon",
         countDown: 5,
-        role: 2,
+        role: 0,
         shortDescription: {
             en: ""
         },
