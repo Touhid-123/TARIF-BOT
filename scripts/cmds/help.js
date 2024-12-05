@@ -64,7 +64,7 @@ module.exports = {
 
 ╰‣> Total cmd: [${totalCommands}].\n╰‣tryp: [ ${prefix}help <cmd>\n╰‣to learn the usage.]\n`;
       msg += ``;
-      msg += `\╰‣ Admin:亗 ɱʀ ƬʌʀᎥʆ 亗\n╰‣ Fb: https://m.me/Mr.tarif.yt.x130  ]\n`; // its not decoy so change it if you want 
+      msg += `\╰‣ Admin:亗 𝐃𝐫𝐚𝐦𝐚 𝐤𝐢𝐧𝐠 𝐓𝐨𝐮𝐡𝐢𝐝 亗\n╰‣ Fb: https://www.facebook.com/ayan.official.robot.v.3.1?mibextid=ZbWKwL  ]\n`; // its not decoy so change it if you want 
 
 
       await message.reply({
